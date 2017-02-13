@@ -1,0 +1,17 @@
+<div class="m-home">
+    <header>
+        <ul>
+            <li class="yo-ico menu">&#xe790;</li>
+            <li>
+                <ul id="title">
+                    <li ui-sref="list.home.hotport" class="active" ui-sref-active="active">热点</li>
+                    <li ui-sref="list.home.atte" ui-sref-active="active">关注</li>
+                </ul>
+            </li>
+            <li class="yo-ico sm">&#xe613;</li>
+        </ul>
+    </header>
+    <div class="section" ui-view>
+       
+    </div>    
+</div>

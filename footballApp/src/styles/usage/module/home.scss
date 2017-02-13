@@ -1,0 +1,68 @@
+.m-home{
+	width:100%;
+	height:100%;
+	@include flexbox();
+	@include flex-direction(column);
+	
+//-------------------header----------
+	header{
+		width: 100%;
+		height:44px;
+		background:#0cc140;
+		z-index: 999;
+		>ul{
+			@include flexbox();
+			width:100%;
+			height:100%;
+			position:relative;
+			>li{
+				width:44px;
+				height:100%;
+				color:#fff;
+				font-size:20px;
+				text-align:center;
+				&.menu{
+					position:absolute;
+					top:5px;
+					left:8px;
+				}
+				&.sm{
+					position:absolute;
+					top:5px;
+					right:8px;
+				}
+				&:nth-child(2){
+					@include flexbox();
+					@include flex(1);
+					@include justify-content(center);//水平居中
+					@include align-items(center);//垂直居中
+					ul{
+						width:118px;
+						height:25px;
+						background:#abcdef;
+						@include flexbox();
+						font-size:14px;
+						color:rgba(255,255,255,0.7);
+						background:rgba(100,217,133,0.7);
+						@include border-radius(50px);
+						overflow:hidden;
+						li{
+							width:59px;
+							height:25px;
+							text-align:center;
+							line-height:25px;
+							&.active{
+								color:rgba(255,255,255,1);
+								background:rgba(100,217,133,1);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+//-------------------container--------------------
+	.section{
+		@include flex($flex: 1,$direction: column);		
+	}
+}

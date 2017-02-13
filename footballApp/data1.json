@@ -1,0 +1,97 @@
+{
+  "scene": {
+    "title": "足球现场",
+    "info": [
+      {
+        "img": "./images/img1.jpg",
+        "text": "樱桃小丸子1"
+      },
+      {
+        "img": "./images/img2.jpg",
+        "text": "樱桃小丸子2"
+      },
+      {
+        "img": "./images/img3.jpg",
+        "text": "樱桃小丸子3"
+      },
+      {
+        "img": "./images/img4.jpg",
+        "text": "樱桃小丸子4"
+      },
+      {
+        "img": "./images/img1.jpg",
+        "text": "争渡，争渡，"
+      },
+      {
+        "img": "./images/img2.jpg",
+        "text": "惊起一滩鸥鹭。"
+      },
+      {
+        "img": "./images/phone.png",
+        "text": "《词·如梦令》"
+      },
+      {
+        "img": "./images/Pikachu.jpg",
+        "text": "作者：李清照"
+      }
+    ]
+  },
+  "life": {
+    "title": "足球生活",
+    "info": [
+      {
+        "img": "./images/img2.jpg",
+        "text": "寻寻觅觅，"
+      },
+      {
+        "img": "./images/img3.jpg",
+        "text": "冷冷清清，"
+      },
+      {
+        "img": "./images/img2.jpg",
+        "text": "沉醉不知归路"
+      },
+      {
+        "img": "./images/img3.jpg",
+        "text": "兴尽晚回舟"
+      },
+      {
+        "img": "./images/img4.jpg",
+        "text": "误入藕花深处"
+      },
+      {
+        "img": "./images/img1.jpg",
+        "text": "争渡，争渡，"
+      }
+    ]
+  },
+  "Beauty": {
+    "title": "足球美女",
+    "info": [
+      {
+        "img": "./images/img4.jpg",
+        "text": "凄凄惨惨戚戚"
+      },
+      {
+        "img": "./images/img3.jpg",
+        "text": "含情脉脉不知"
+      },
+      {
+        "img": "./images/img2.jpg",
+        "text": "沉醉不知归路"
+      },
+      {
+        "img": "./images/img3.jpg",
+        "text": "兴尽晚回舟"
+      },
+      {
+        "img": "./images/img4.jpg",
+        "text": "误入藕花深处"
+      },
+      {
+        "img": "./images/img1.jpg",
+        "text": "争渡，争渡，"
+      }
+    ]
+  }
+}

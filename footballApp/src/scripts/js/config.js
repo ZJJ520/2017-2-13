@@ -1,0 +1,41 @@
+angular.module("myapp")
+	.config(["$stateProvider","$urlRouterProvider",function($stateProvider,$urlRouterProvider){
+	    $urlRouterProvider.otherwise("yindao");
+	    $stateProvider
+	        .state("yindao",{// 引导页
+	            url:"/yindao",
+	            templateUrl:"src/tpls/yindao.string",
+	            controller:"yindao"
+	        })
+	        .state("list",{
+	            url:"/list",
+	            templateUrl:"src/tpls/list.string",
+	         	controller:"homeCtrl"
+	        })
+	        .state("list.home",{
+	        	url:"/home",
+	        	templateUrl:"src/tpls/home.string",
+	        	controller:"hotportCtrl"
+	        })
+	        .state("list.home.hotport",{
+	        	url:"/hotport",
+	        	templateUrl:"src/tpls/hotport.string",  
+	        	controller: "swiperCtrl"        	
+	        })
+	        .state("list.home.atte",{
+	        	url:"/atte",
+	        	templateUrl:"src/tpls/atte.string"	        	
+	        })
+	        .state("list.find",{
+	        	url:"/find",
+	        	templateUrl:"src/tpls/find.string"	        	
+	        })
+	        .state("list.my",{
+	        	url:"/my",
+	        	templateUrl:"src/tpls/my.string"
+	        })
+	        .state("list.exit",{
+	        	url:"/exit",
+	        	templateUrl:"src/tpls/exit.string"
+	        })
+	}])
